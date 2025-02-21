@@ -94,7 +94,6 @@ O código realiza as seguintes etapas:
 *   **Erros:** O código inclui algum tratamento de erros básico, mas pode ser necessário aprimorá-lo para lidar com diferentes tipos de erros e situações.
 *   **Formato da Resposta:** O código espera que a resposta do OpenRouter esteja em um formato específico (JSON com uma lista de `choices` contendo um `message` com um campo `content`). Se o formato da resposta for diferente, o código pode não funcionar corretamente.
 *   **Modelo de Avaliação:** O modelo `google/palm-2-codechat-bison` usado para avaliação foi escolhido como um exemplo. Você pode experimentar com outros modelos para obter diferentes perspectivas de avaliação.
-*   **Melhorias:**  Este código pode ser aprimorado adicionando mais tratamento de erros, logs, opções de configuração (como a pergunta, os modelos a serem usados, os critérios de avaliação), e uma interface mais amigável.
 *   **Arquivo `requirements.txt`:** Inclua um arquivo `requirements.txt` com as dependências do seu projeto.  Para gerar este arquivo, você pode usar o comando:
 
     ```bash
